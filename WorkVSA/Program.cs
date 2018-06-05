@@ -42,7 +42,7 @@ namespace MyFirstProject1
                     objText.Location = new Autodesk.AutoCAD.Geometry.Point3d(20, 40, 0);
 
                     // Set the text string for the MText object
-                    objText.Contents = "Расчетная мощность - составляет (кВт) : ";
+                    objText.Contents = "Расчетная мощность - составляет (в киловатах) : ";
 
                     // Set the text style for the MText object
                     objText.TextStyleId = acCurDb.Textstyle;
